@@ -18,18 +18,18 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-hoi {}, my name is {}! if you have any questions about how to use me please give me /help... 
+Asc {}, magacaygu {somali tech guard}! Hadii aad Aad Rabtid in aad ogaatid qaabka Lay isticmaalo fadlan taabo /help... 
 
-im a group manager bot maintained by  [this person](tg://user?id={}).
+waxaan ahay group maamule lagu uu sameeyey [qoFkaan](tg://user?id={}).
 
-My future updates will be put into This Channel - @MarieChechi & My Support Group @InFoTelGroup.
+updateskayga cusub waxaad kala socon kartaa - @MarieChechi & My Support Group @InFoTelGroup @somali_tech 👀 .
 
-This is my [Deploy Code](https://heroku.com/deploy?template=https://github.com/TGExplore/Marie-2.0-English),
-you can create clone same like me..
+kani waa [Deploy Code](https://heroku.com/deploy?template=https://github.com/TGExplore/Marie-2.0-English),
+waad samaysan kartaa bot aniga oo kale ah😁✌ ..
 
-For more commands click /help...
+Si aad amaro badan u hesho taabo /help...
 
-**Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
+**Mid niyada ku haay isbadal walpa aad botka ku samaysid waa in uu yaala github isaga oo per licesnce ah👨‍💻.**
 
 """
 
@@ -37,10 +37,10 @@ HELP_STRINGS = """
 
 Hello! my name *{}*.
 
-*Main* available commands:
- - /start: Start the bot...
- - /help: help....
- - /donate: To find out more about donating!
+*Main* Amarada aad heli kartid:
+ - /start: bilaw botka...
+ - /help: caawin....
+ - /donate: Lacag yar oo budget ah sii Ninka sameeyey botkan😁✌!
  - /settings:
    - in PM: To find out what SETTINGS you have set....
    - in a group:
@@ -49,11 +49,8 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
-motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
-(see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+DONATE_STRING = """heyya🥳🥳 Donate markaan arko waan farxaa Laakiin aad iyo aad ayaad u mahadsan tahay Runtii waan farxay😁🥳 Sida aad 
+sameeyaha botka wax ugu dhiiri galisay Fadlan Join ii dheh telegram channelka @somali_tech Intaas ayaa wax walpa iiga badan
 
 IMPORTED = {}
 MIGRATEABLE = []
